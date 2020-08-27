@@ -1,0 +1,73 @@
+.sidecontainer h1{
+    font-family:sans-serif;
+    font-size: 25px;
+    color:dimgray;
+    padding-top: 20px;
+    padding-left: 250px;
+}
+.sidecontainer .box{
+    height: 500px;
+    width: 715px;
+    margin-left:265px;
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 6px 6px 2px gray;    
+    
+}
+.sidecontainer .box span{
+     color:dimgray;
+    padding-left: 20px;
+
+}
+.sidecontainer .box span h1{
+    font-size:20px;
+    margin-left: -230px;
+    margin-top: -10px;
+    margin-bottom: -30px;
+}
+.sidecontainer .box span h2{
+    font-size:14px;
+    color: dimgray;
+    margin-left:20px;
+    margin-top:50px;
+}
+.sidecontainer .box span p{
+    font-size:14px;
+    margin-left:130px;
+    margin-top: -15px;
+}
+
+.sidecontainer .box .col1{
+    width: 95%;
+    float: left;
+    margin-top:20px;
+}
+
+.sidecontainer .box .col1 .txt{
+    float: left;
+}
+.sidecontainer .box .col1 span{
+color:dimgray;
+font-size: 18px;
+
+}
+sidecontainer .box .col1 input{
+    padding: 6px 12px 6px 12px;
+}
+.sidecontainer .box .col1 .input{
+    float: right;
+    color:dimgray;
+    width:520px;
+    height: 30px;
+}
+.sidecontainer .box .col1 button{
+        float: right;
+    margin-top: 20px;
+        height: 35px;
+    width: 60px;
+    background-color:lightblue;
+cursor: pointer;
+}
+.sidecontainer .box .col1 button:hover{
+    background-color: gainsboro;
+}

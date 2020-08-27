@@ -1,0 +1,200 @@
+*{margin: 0;
+padding: 0;}
+body{
+    background-color:gainsboro;
+    height: auto;
+}
+nav{
+    width: 100%;
+    height: 65px;
+    background:white;
+    border-bottom: 1px solid gray;
+    overflow: hidden;
+}
+nav h1{float: left;
+    padding: 16px;
+    margin-left: 12px;
+    color: dimgray;
+}
+nav a{
+    text-decoration: none;
+    float: right;
+    padding: 20px;
+    color: dimgray;
+    font-family:sans-serif;
+    font-weight:900;
+}
+nav button{
+    background-color: lightskyblue;
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+.sidebar{
+    float: left;
+    background-color:dimgray;
+    width: 23%;
+    min-height:100%;
+    height: auto;
+}
+
+
+.sidebar ul{
+    margin-top: 20px;
+    color:gainsboro;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:gainsboro;
+}
+.sidebar ul li:hover a{
+    color: white;
+}
+
+.sidebar ul li{
+    padding: 15px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color:gainsboro;
+    font-family: sans-serif;
+    border-bottom: 1px solid gray;
+}
+.sidebar ul li:hover{
+    background-color: aquamarine;
+    color: white;
+
+}
+
+
+.sidebar ul li ul{
+    display: none;
+    background-color: none;
+}
+.sidebar ul li ul li{
+    margin-top:-8px;
+}
+.sidebar ul li:hover>ul{
+    display: block;   
+    background-color:dimgray;
+    margin-left:-15px;
+    margin-right:-15px;
+      margin-bottom:-15px;
+    font-size: 13px;
+
+}
+.sidebar ul li ul li:hover{
+color: white;
+    background-color: dimgray;
+    margin-left:10px;
+
+}
+.sidecontainer{
+ background-color:gainsboro;
+    width: 100%;
+    min-height:100%;
+    height: auto;
+}
+
+.sidecontainer h1{
+    font-family:sans-serif;
+    font-size: 25px;
+    color:dimgray;
+    padding-top: 20px;
+    padding-left: 250px;
+}
+.sidecontainer .box{
+    height: 450px;
+    width: 715px;
+    margin-left:265px;
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 6px 6px 2px gray;    
+    
+}
+.sidecontainer .box span{
+     color:dimgray;
+    padding-left: 20px;
+
+}
+.sidecontainer .box span h1{
+    font-size:20px;
+    margin-left: -230px;
+    margin-top: -10px;
+    margin-bottom: -30px;
+}
+.sidecontainer .box span h2{
+    font-size:14px;
+    color: dimgray;
+    margin-left:20px;
+    margin-top:50px;
+}
+.sidecontainer .box span p{
+    font-size:14px;
+    margin-left:130px;
+    margin-top: -15px;
+}
+
+.sidecontainer .box .col1{
+    width: 96%;
+    `
+    margin-top:50px;
+}
+
+.sidecontainer .box .col1 .txt{
+    float: left;
+}
+.sidecontainer .box .col1 span{
+color:dimgray;
+font-size: 18px;
+
+}.sidecontainer .box .col1 input{
+    padding: 6px 12px 6px 12px;
+}
+.sidecontainer .box .col1 .input{
+    float: right;
+    color:dimgray;
+    width:75%;
+    height: 30px;
+    
+}
+.sidecontainer .box .col1 button{
+    position: absolute;
+    float: right;
+margin-top: 80px;
+    margin-left: 465px;
+    height: 35px;
+    width: 60px;
+    background-color:lightblue;
+cursor: pointer;
+}
+.sidecontainer .box .col1 button:hover{
+    background-color: gainsboro;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: white;
+    width: 100%;
+    border-top: 1px solid gray;
+    padding-bottom:160px;
+    font-family:arial;
+    }
+footer p{
+    padding: 20px;
+    color:dimgray;
+    font-size: 13px;
+}
+footer p span{
+    color: darkgray;
+}

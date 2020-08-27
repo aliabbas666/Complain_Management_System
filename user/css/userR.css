@@ -1,0 +1,75 @@
+body{
+    background-image:url(img/loginbg.jpg);
+    background-repeat:no-repeat; 
+    background-position:top center;
+    background-size:cover;
+    background-color: aquamarine;
+}
+.signin{
+    margin: 100px auto;
+    background: white;
+    width: 350px;
+    height: auto;
+    border-radius: 12px;
+    overflow: hidden;
+    /*box-shadow: 2px 2px 5px #fff;
+    border: 1px solid gray;*/
+}
+.signin .top{
+    background: skyblue;
+    height: 75px;
+    width: 100%;
+    text-align: center;
+    line-height: 75px;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 15px;
+}
+.signin input{
+    width: 86%;
+    height: 30px;
+   margin: auto;
+	padding: 6px 12px 6px 12px;
+    margin-top: 20px;
+ 
+margin-bottom: 3px;
+}
+.signin input:hover{   
+
+
+}
+.signin button{
+     margin-top: 20px;
+       border-radius:6px;
+     width: 86%;
+    height: 35px;
+        background: skyblue;
+cursor: pointer;
+    color: white;
+    font-weight: 650;
+
+
+}
+.forgot_link {
+
+
+	color: #83afdf;
+	text-decoration: none;
+	font-size: 15px;
+     margin-top: 20px;
+	    margin-left: 217px;
+
+}
+.forgot_link span p{
+margin-top: -15px;
+    	color: #83afdf;
+
+}
+hr{
+    width: 86%;
+    margin-top: 20px;
+}
+.signin p{
+    color:gray;
+    font-size: 15px;
+}

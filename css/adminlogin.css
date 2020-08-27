@@ -1,0 +1,72 @@
+*{margin: 0;
+padding: 0;}
+body{
+    background-color:gainsboro;
+}
+nav{
+    width: 100%;
+    height: 65px;
+    background:white;
+    border-bottom: 1px solid gray;
+    overflow: hidden;
+}
+nav h1{float: left;
+    padding: 16px;
+    margin-left: 12px;
+    color: dimgray;
+}
+nav a{
+    text-decoration: none;
+    float: right;
+    padding: 20px;
+    color: dimgray;
+    font-family:sans-serif;
+    font-weight:900;
+    
+    
+}
+.signin{
+    background-color:whitesmoke;
+    width: 280px;
+    height: 205px;
+    border-radius: 8px;
+    margin: 110px auto;
+    
+    
+}
+.signin h1{
+    padding: 10px;
+    font-size: 18px;
+}
+.signin input{
+    width: 86%;
+    height:30px; 
+    margin-top: 20px;
+    padding: 6px 12px 6px 12px;
+     
+
+}
+.signin button{
+    margin-left: 220px;
+    margin-top: 10px;
+    height: 28px;
+    width: 40px;
+    cursor: pointer;
+}
+footer{
+    background-color: white;
+    width: 100%;
+    height: 60px;;
+    margin-top: -60px;
+    border-top: 1px solid gray;
+    padding-bottom:160px;
+    font-family:arial;
+    }
+footer p{
+    padding: 20px;
+    color:dimgray;
+    font-size: 13px;
+}
+footer p span{
+    color: darkgray;
+}

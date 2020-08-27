@@ -1,0 +1,70 @@
+body{
+    background-image:url(C:\Users\NOOR\Desktop\cms\img\login-bg.jpg);
+    background-repeat:no-repeat; 
+    background-position:top center;
+    background-size:cover;
+    background-color: aquamarine;
+}
+.forgot{
+    margin: 50px auto;
+    background: white;
+    width: 600px;
+    height: auto;
+    overflow: hidden;
+    border-bottom-right-radius:8px; 
+    border-bottom-left-radius:8px;
+    /*box-shadow: 2px 2px 5px #fff;
+    border: 1px solid gray;*/
+}
+.forgot .top{
+    background: skyblue;
+    height: 60px;
+    width: 100%;
+    padding-left: 30px;
+    text-align: left;
+    line-height: 60px;
+    font-size: 28px;
+    color: white;
+    margin-bottom:10px;
+}
+.forgot p{
+    padding-left:13px;
+    color:dimgrey;
+
+}
+.forgot input{
+    width:96%;
+    height: 35px;
+   margin: auto;
+	padding: 6px 12px 6px 12px;
+     margin-bottom:18px;
+    
+}
+.forgot input:hover{ 
+
+
+}
+hr{
+    width:100%;
+}
+.forgot .buttonc{
+    margin-left:440px;
+}
+
+.forgot button{
+    margin-top: 5px;
+    border-radius:6px;
+    width:70px;
+    height: 35px;
+    background: skyblue;
+    cursor: pointer;
+    color: white;
+    font-weight: 650;
+    margin-left:3px;
+    margin-bottom: 12px;
+}
+.forgot .cancel{
+background-color: white;
+color:dimgrey;
+    
+}

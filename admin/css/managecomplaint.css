@@ -1,0 +1,63 @@
+.sidecontainer h1{
+    font-family:sans-serif;
+    font-size: 25px;
+    color:dimgray;
+    padding-top: 20px;
+    padding-left: 250px;
+}
+.sidecontainer .box{
+    min-height:450px;
+    width: 715px;
+    margin-left:265px;
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 6px 6px 2px gray;    
+    height: auto;
+}
+
+
+
+
+.sidecontainer .box .col1{
+    width: 96%;
+    `
+    margin-top:50px;
+}
+table{
+    border: 1px solid gainsboro;
+    width: 710px;
+}
+table th{
+    border: 2px solid gainsboro;
+    color:dimgray;
+    
+}
+table td{
+    border: 2px solid gainsboro;
+    color:dimgray;
+    
+    
+}
+table tr{
+        height:30px;
+
+}
+table tr td{
+        height:40px;
+    width: 20%;
+
+}
+table tr td input[type="button"]{
+        height:35px;
+         background-color:salmon;
+        border-radius:12px;
+    width:94%;
+    cursor: pointer;
+    color: white;
+
+}
+table tr td input[name="blue"]{
+    background-color: dodgerblue;
+}
+
+
